@@ -1,0 +1,83 @@
+body {
+  background-color: #1b1a1c;
+  font-family: 'Poppins', sans-serif;
+}
+.message_container {
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+  overflow-y: scroll;
+  
+}
+.right {
+  display: block;
+  background-color: #252426;
+  border-radius: 18px;
+  color: white;
+  padding: 15px;
+  margin: 17px 12px;
+  border-radius: 18px;
+  box-shadow: 2px 2px 2px skyblue;
+  clear: both;
+  max-width: 40%;
+  overflow-wrap: break-word;
+  margin-bottom: 17px;
+  align-self: flex-end;
+  font-size: 2vh;
+  letter-spacing: 0.3px;
+}
+.left {
+  display: block;
+  background-color: #252426;
+  border-radius: 18px;
+  box-shadow: 2px 2px 2px lightcoral;
+  clear: both;
+  color: white;
+  padding: 15px;
+  margin: 17px 12px;
+  max-width: 40%;
+  overflow-wrap: break-word;
+  margin-bottom: 17px;
+  font-size: 2vh;
+  letter-spacing: 0.3px;
+  align-self: flex-start;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+#messageInp {
+  
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 75px);
+  height: 30px;
+  margin-bottom: 5px;
+  color: white;
+  left: 2px;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+  word-wrap: break-word; 
+    word-break: break-word;
+}
+#send-container:focus {
+  border: none;
+  background-color: #333;
+  
+}
+/* form{
+    display: flex;
+
+} */
+.btn {
+  color: white;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  height: 5.2vh;
+  width: 61px;
+  right: 2px;
+  margin-bottom: 5px;
+}
