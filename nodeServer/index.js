@@ -3,8 +3,8 @@ import {Server} from 'socket.io';
 let app = express();
 
 
-let server = app.listen(`https://gorgeous-pika-bf17b8.netlify.app/`);
-});
+let server = app.listen(8888);
+
 
 let io = new Server(server);
 //server will listen incoming events
