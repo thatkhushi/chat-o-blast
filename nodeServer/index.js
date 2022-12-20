@@ -2,9 +2,8 @@ import express from 'express';
 import {Server} from 'socket.io';
 let app = express();
 
-let port =8000;
-let server = app.listen(port, () => {
-    console.log('Listening on PORT :' + port);
+
+let server = app.listen(`https://gorgeous-pika-bf17b8.netlify.app/`);
 });
 
 let io = new Server(server);
