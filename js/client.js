@@ -1,6 +1,6 @@
 //const socket = io('http://localhost:8000');
     
-const socket = io('https://gorgeous-pika-bf17b8.netlify.app/', { transports: ['websocket', 'polling', 'flashsocket'] });
+const socket = io('http://localhost:8888', { transports: ['websocket', 'polling', 'flashsocket'] });
 
 const form = document.getElementById('send-container') 
 const messageInput= document.getElementById('messageInp')
